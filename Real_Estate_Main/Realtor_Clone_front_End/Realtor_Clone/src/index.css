@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+  background-color: rgb(240,253,240);
+  font-family: 'Urbanist', sans-serif;
+}
+html::-webkit-scrollbar{
+  display:none;
+}
+html{
+  scrollbar-width: none;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after{
+  color: deepskyblue !important;
+}
+
+
+.swiper-pagination-progressbar .swiper-pagination-progressbar-fill{
+  background: deepskyblue !important;
+}
